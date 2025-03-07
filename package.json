@@ -1,0 +1,47 @@
+{
+  "name": "instaclass",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --fix",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.23",
+    "@heroicons/vue": "^2.2.0",
+    "@vueuse/core": "^11.3.0",
+    "ant-design-vue": "4.x",
+    "axios": "^1.7.7",
+    "element-plus": "^2.9.1",
+    "fabric": "^6.5.3",
+    "kalmanjs": "^1.1.0",
+    "leaflet": "^1.9.4",
+    "lodash.debounce": "^4.0.8",
+    "maplibre-gl": "^4.7.1",
+    "mathjs": "^14.0.1",
+    "pathfinding": "^0.4.18",
+    "styled-components": "^6.1.13",
+    "vue": "^3.5.12",
+    "vue-i18n": "^11.0.0-beta.1",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "@types/maplibre-gl": "^1.14.0",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "@vitejs/plugin-vue-jsx": "^4.0.1",
+    "@vue/eslint-config-prettier": "^10.1.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.14.0",
+    "eslint-plugin-vue": "^9.30.0",
+    "postcss": "^8.4.49",
+    "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.15",
+    "vite": "^5.4.11",
+    "vite-plugin-vue-devtools": "^7.5.4"
+  }
+}
